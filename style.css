@@ -420,7 +420,53 @@ button.normal{
 }
 /* small banner end  */
 
+/* footer Start  */
 
+#footer{
+    display: flex;
+    
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 75px;
+    background-color:  #ececec;
+
+}
+
+#footer p, #footer a{
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+
+
+}
+
+#footer a:hover{
+    color: #088178;
+
+}
+
+#footer .about a{
+    display: block;
+    padding: 8px;
+
+}
+
+
+ #footer .myaccount a{
+    display: block;
+    padding: 8px 0;
+ }
+  #footer .download img{
+    border: 1px solid #08817969;
+    border-radius: 7px;
+    width: 120px;
+    height: 50px;
+
+
+  }
+
+  #footer .payment img{
+    width: 200px;
+  }
 
 
 
